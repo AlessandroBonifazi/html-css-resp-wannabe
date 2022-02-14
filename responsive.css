@@ -1,0 +1,42 @@
+/* Desktop First */
+@media screen and (max-width: 720px) {
+    #lezioni,#why {
+        background-color: #f2d7cd;
+    }
+    #steps {
+          background-color: white;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right,  
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right  {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+    }
+    .row {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #lezioni,#why {
+        background-color: #f2f2cd;
+    }
+    #steps {
+          background-color: white;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right,  
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right  {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+    }
+    .row {
+        width: 100%;
+    }
+}
