@@ -1,5 +1,5 @@
 /* Desktop First */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 900px) {
     #lezioni,#why {
         background-color: #f2d7cd;
     }
@@ -7,7 +7,9 @@
           background-color: white;
     }
     #lezioni .row>.left,
-    #lezioni .row>.right,  
+    #lezioni .row>.right {
+        margin-bottom: 30px;
+    }  
     #steps .row>.left,
     #steps .row>.central,
     #steps .row>.right  {
